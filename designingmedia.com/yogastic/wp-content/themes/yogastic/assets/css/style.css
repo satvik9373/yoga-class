@@ -2346,7 +2346,7 @@ ul.topbar-left li:hover {
 }
 
 .navbar-area .navbar {
-    background: var(--e-global-color-light-pink);
+    background: white;
     position: relative;
     top: 0;
     left: 0;
