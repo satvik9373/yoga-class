@@ -1,0 +1,70 @@
+/*!
+Theme Name: Yogastic
+Theme URI: https://elementorpress.com/yogastic
+Author: Designing Media
+Author URI: http://designingmedia.com
+Description: Introducing Yogastic, the ultimate WordPress theme tailored specifically for your yoga company. Designed with meticulous attention to detail and infused with the essence of tranquility, Yogastic is the perfect digital companion to elevate your online presence and captivate your audience.With its sleek and modern design, Yogastic creates an immersive and serene atmosphere that effortlessly mirrors the peaceful ambiance of your yoga studio. The theme's clean and intuitive layout invites visitors to explore your offerings, making it easier than ever for them to embark on their own transformative yoga journey.Yogastic is more than just a theme; it's a holistic solution that empowers you to manage your content with ease. With its user-friendly interface and powerful content management system, you can effortlessly update your class schedules, publish blog posts, and share valuable insights with your audience.
+Version: 1.0
+Requires PHP: 7.0
+Tested up to: 5.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: yogastic
+Tags: yoga-wordPress-theme,yoga-website-template,yoga-website-template,,custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready,
+
+*/
+
+.no-breadcrumbs.page-title-area:after {
+    display: none;
+}
+
+.navbar-area .nav-container .navbar-collapse #menu-all-pages>li+li {
+    margin-left: 10px;
+}
+
+.navbar-area .nav-container .navbar-collapse #menu-all-pages li {
+    padding: 0 7px;
+}
+
+/*Unit test css*/
+
+.navbar-area .nav-container .logo a.retina-logo {
+    display: none;
+}
+
+.wpcf7 form.sent .wpcf7-response-output,
+.wpcf7-not-valid-tip {
+    color: #7e7e7e;
+    font-size: 1em;
+    font-weight: normal;
+    display: block;
+    margin-top: 25px;
+    position: absolute;
+    width: 445px;
+    display: block;
+    left: 0;
+    border: 1px solid #d9d9d9;
+    padding: 4px 5px 1px 10px;
+}
+
+.banner-inner .wpcf7 form.sent .wpcf7-response-output,
+.banner-inner .wpcf7-not-valid-tip {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.wpcf7-spinner {
+    display: none;
+}
+
+.banner-inner .wpcf7 form.invalid .wpcf7-response-output,
+.banner-inner .wpcf7 form.unaccepted .wpcf7-response-output,
+.banner-inner .wpcf7 form.payment-required .wpcf7-response-output {
+    border-color: #fff;
+    color: #fff;
+    margin-top: 0;
+}
+
+.wpcf7 form.invalid .wpcf7-response-output {
+    display: none;
+}
