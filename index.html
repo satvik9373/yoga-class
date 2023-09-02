@@ -944,57 +944,41 @@
     <div id="page" class="site">
         <a class="skip-link screen-reader-text" href="#primary">Skip to content</a>
 
-        <!-- navbar start -->
-        <div class="navbar-area navbar-area-2 style-2 extra-margin-top">
-
-            <div class="body-overlay" id="body-overlay"></div>
-            <div class="search-popup" id="search-popup">
-                <form role="search" method="get" class="search-form" action="https://designingmedia.com/yogastic/">
-                    <input type="text" class="search-field" placeholder="Search here..." value="" name="s" required>
-                    <button type="submit" class="search-submit">
-        <i class="fa fa-search"></i>
-    </button>
-                </form>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
             </div>
-
-            <!-- navbar start -->
-            <div class="navbar-area navbar-area-2 style-2 extra-margin-top">
-                <nav class="navbar navbar-area navbar-expand-lg nav-transparent">
-                    <div class="container nav-container nav-white">
-                        <div class="responsive-mobile-menu">
-                            <div class="logo">
-                                <a class="standard-logo" href="https://designingmedia.com/yogastic/">
-                <img src="./logo-removebg-preview.png" alt="logo" />
-            </a>
-                                <a class="retina-logo" href="https://designingmedia.com/yogastic/">
-                <img src="./logo-removebg-preview.png" alt="logo" />
-            </a>
-                            </div>
-                            <button class="s7t-header-menu toggle-btn d-block d-lg-none" data-toggle="collapse" data-target="#yogastic_main_menu" aria-expanded="false" aria-label="Toggle navigation">
-	                    <span class="icon-left"></span>
-	                    <span class="icon-right"></span>
-	                </button>
-                        </div>
-                        <div id="yogastic_main_menu" class="collapse navbar-collapse">
-                            <ul id="menu-menu" class="navbar-nav">
-                                <li id="menu-item-47" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-8 current_page_item menu-item-47"><a href="https://designingmedia.com/yogastic/" aria-current="page">Home</a></li>
-                                <li id="menu-item-2050" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2050"><a href="https://designingmedia.com/yogastic/about/">About Us</a></li>
-                                <li id="menu-item-2483" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2483"><a href="https://designingmedia.com/yogastic/services/">Services</a></li>
-                                <li id="menu-item-50" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-50"><a href="#">Pages</a>
-                                    <ul class="sub-menu">
-                                        <li id="menu-item-2566" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2566"><a href="https://designingmedia.com/yogastic/pricing/">Pricing</a></li>
-                                        <li id="menu-item-3222" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3222"><a href="https://designingmedia.com/yogastic/testimonial/">Testimonial</a></li>
-                                        <li id="menu-item-2722" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2722"><a href="https://designingmedia.com/yogastic/faq/">Faq</a></li>
-                                        <li id="menu-item-2582" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2582"><a href="https://designingmedia.com/yogastic/team/">Team</a></li>
-                                    </ul>
-                                </li>
-                                <li id="menu-item-3379" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3379"><a href="https://designingmedia.com/yogastic/contact/">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-
+          </nav>
 
             <div id="content" class="site-content">
                 <div class="breadcrumb-area breadcrumb-bg only-front-page breadcrumb-spacing style-1">
@@ -1020,9 +1004,7 @@
                                                     display: inline-block
                                                 }
 
-                                                .elementor-widget-image a img[src$=".svg"] {
-                                                    width: 48px
-                                                }
+                                               
 
                                                 .elementor-widget-image img {
                                                     vertical-align: middle;
@@ -1112,7 +1094,7 @@
                                                 }
 
                                                 .elementor-social-icon-codepen {
-                                                    background-color: #000
+                                                    background-color: white
                                                 }
 
                                                 .elementor-social-icon-delicious {
