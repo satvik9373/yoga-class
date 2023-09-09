@@ -63,8 +63,8 @@
 @import url("../icons/themify/themify-icons.css");
 @import url("../icons/flaticon/flaticon_yogacare.css");
 :root {
-    --primary: #FFC1B4;
-    --secondary: WHITE;
+    --primary: green;
+    --secondary: #fff;
     --gray: #f3f4f8;
     --dark: #151F37;
     --primary-hover: #ff9781;
@@ -17744,7 +17744,7 @@ footer .dz-meta ul li a {
 }
 
 .site-footer .footer-logo.logo-center {
-    background: var(--secondary);
+    background:  var(--bs-gray-100);
     width: 140px;
     height: 150px;
     border-radius: 0 0 20px 20px;
