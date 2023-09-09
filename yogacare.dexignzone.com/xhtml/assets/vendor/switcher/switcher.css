@@ -51,13 +51,7 @@
     box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.20);
 }
 
-.styleswitcher .switcher-btn-bx {
-    box-shadow: 7px 0 5px rgba(0, 0, 0, 0.1);
-    position: absolute;
-    right: -44px;
-    top: 200px;
-    z-index: 1;
-}
+
 
 .styleswitcher .sw-main-title {
     font-size: 20px;
