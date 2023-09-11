@@ -17744,7 +17744,7 @@ footer .dz-meta ul li a {
 }
 
 .site-footer .footer-logo.logo-center {
-    background:  var(--bs-gray-100);
+    background:  var(--bs-gray-100) !important;
     width: 140px;
     height: 150px;
     border-radius: 0 0 20px 20px;
@@ -32505,7 +32505,7 @@ General Styles
 
 .about-wrapper2 {
     overflow: hidden;
-    background-color: #B2C801;
+    background-color: #b2c801;
 }
 
 .about-wrapper2 .about-content {

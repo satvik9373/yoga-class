@@ -17751,7 +17751,7 @@ footer .dz-meta ul li a {
 }
 
 .site-footer .footer-logo.logo-center {
-    background: var(--secondary);
+    background: var(--gray);
     width: 140px;
     height: 150px;
     border-radius: 0 0 20px 20px;
